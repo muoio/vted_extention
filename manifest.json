@@ -1,0 +1,19 @@
+{
+    "name": "Tool Vted",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup":"./popup.html"
+      },
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["file:///home/tuan/*","https://vted.vn/*"],
+          "css": ["css/style.css"],
+          "js": ["js/jquery-2.1.3.js", "js/custom.js"]
+        }
+      ],
+    "web_accessible_resources": ["script.js"]
+
+}

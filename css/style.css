@@ -1,0 +1,9 @@
+.download_explain {
+    right: 55%;
+    top: 5%;
+}
+.download_explain button {
+    background: green;
+    color: white;
+    cursor: pointer;
+}
